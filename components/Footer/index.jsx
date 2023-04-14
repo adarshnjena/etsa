@@ -13,20 +13,30 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
-                  <Image
-                    src="images/logo/logo-2.svg"
-                    alt="logo"
-                    className="w-full dark:hidden"
-                    width={140}
-                    height={30}
-                  />
-                  <Image
-                    src="images/logo/logo.svg"
-                    alt="logo"
-                    className="hidden w-full dark:block"
-                    width={140}
-                    height={30}
-                  />
+                  <div className="flex">
+                    <Image
+                      src="/images/logo/logo-2.png"
+                      alt="logo"
+                      width={140}
+                      height={30}
+                      className="m-0 w-[8vh] p-0 dark:hidden sm:w-[10vh]"
+                    />
+                    <p className="place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-black dark:hidden">
+                      ETSA
+                    </p>
+                  </div>
+                  <div className="flex">
+                    <Image
+                      src="/images/logo/logo.png"
+                      alt="logo"
+                      width={140}
+                      height={30}
+                      className="m-0 hidden w-[8vh] p-0 dark:block sm:w-[10vh]"
+                    />
+                    <p className="hidden place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-white dark:block">
+                      ETSA
+                    </p>
+                  </div>
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -208,7 +218,14 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Designed and Developed By <a href="https://adarshjena.in" rel="nofollow noopener" className="text-primary">Adarsh Jena 🧡</a>
+              Designed and Developed By{" "}
+              <a
+                href="https://adarshjena.in"
+                rel="nofollow noopener"
+                className="text-primary"
+              >
+                Adarsh Jena 💜
+              </a>
             </p>
           </div>
         </div>
@@ -235,7 +252,7 @@ const Footer = () => {
                 cx="49.5"
                 cy="49.5"
                 r="49.5"
-                fill="#ff8811"
+                fill="#7201d4"
               />
             </mask>
             <g mask="url(#mask0_94:899)">
@@ -341,8 +358,8 @@ const Footer = () => {
                 y2="59.8878"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0" />
+                <stop stopColor="#7201d4" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear_94:889"
@@ -352,8 +369,8 @@ const Footer = () => {
                 y2="20.668"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0.51" />
+                <stop stopColor="#7201d4" stopOpacity="0" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear_94:889"
@@ -363,8 +380,8 @@ const Footer = () => {
                 y2="25.1062"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0" />
+                <stop stopColor="#7201d4" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear_94:889"
@@ -374,8 +391,8 @@ const Footer = () => {
                 y2="80.6826"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0.51" />
+                <stop stopColor="#7201d4" stopOpacity="0" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0.51" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear_94:889"
@@ -385,8 +402,8 @@ const Footer = () => {
                 y2="58.2156"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0.62" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0" />
+                <stop stopColor="#7201d4" stopOpacity="0.62" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear_94:889"
@@ -396,8 +413,8 @@ const Footer = () => {
                 y2="41.6598"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stopColor="#ff8811" stopOpacity="0" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity="0.51" />
+                <stop stopColor="#7201d4" stopOpacity="0" />
+                <stop offset="1" stopColor="#7201d4" stopOpacity="0.51" />
               </linearGradient>
             </defs>
           </svg>

@@ -16,13 +16,13 @@ module.exports = {
       transparent: "transparent",
       white: "#FFFFFF",
       black: "#090E34",
-      dark: "#f2a65a",
-      primary: "#ff8c42",
+      dark: "#250b3b",
+      primary: "#541a86",
       secondary: "#2e2e3a",
       yellow: "#FBB040",
       "body-color": "#959CB1",
-      "body-color-light": "#fff6eb",
-      "body-color-dark": "#191919",
+      "body-color-light": "#F9F6FB",
+      "body-color-dark": "#000",
       contactUs: "#523822",
       contactUs4: "#6e633d",
       contactUs2: "#464545",
@@ -53,6 +53,9 @@ module.exports = {
         one: "0px 2px 3px rgba(7, 7, 77, 0.05)",
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
+      fontFamily: {
+        'mokoto' : ['mokoto']
+      }
     },
   },
   plugins: [],

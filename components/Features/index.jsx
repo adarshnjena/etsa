@@ -7,19 +7,33 @@ const Features = () => {
     <>
       <section
         id="features"
-        className="bg-primary/[.03] py-16 md:py-20 lg:py-28 overflow-hidden relative"
+        className="relative overflow-hidden bg-primary/[.03] py-16 md:py-20 lg:py-28"
       >
         <div
-          className="absolute -left-32 -top-28  lg:block pointer-events-none"
+          className="pointer-events-none absolute -left-32  -top-28 lg:block"
           aria-hidden="true"
           data-aos="fade-up"
           data-aos-delay="400"
         >
-          <svg className="max-w-full" width="564" height="552" viewBox="0 0 564 552" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg
+            className="max-w-full"
+            width="564"
+            height="552"
+            viewBox="0 0 564 552"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <defs>
-              <linearGradient id="illustration-02" x1="-3.766" y1="300.204" x2="284.352" y2="577.921" gradientUnits="userSpaceOnUse">
-                <stop stopColor="#ff8811" stopOpacity=".01" />
-                <stop offset="1" stopColor="#ff8811" stopOpacity=".32" />
+              <linearGradient
+                id="illustration-02"
+                x1="-3.766"
+                y1="300.204"
+                x2="284.352"
+                y2="577.921"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#541a86" stopOpacity=".01" />
+                <stop offset="1" stopColor="#541a86" stopOpacity=".32" />
               </linearGradient>
             </defs>
             <path

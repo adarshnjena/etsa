@@ -13,7 +13,7 @@ const menuData = [
   },
   {
     id: 33,
-    title: "Blog",
+    title: "Horizon",
     path: "/blog",
     newTab: false,
   },
