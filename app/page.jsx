@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Inter } from "@next/font/google";
+import Horizon from "./horizon/page";
 
 const inter = Inter({ subsets: ["latin"] });
 

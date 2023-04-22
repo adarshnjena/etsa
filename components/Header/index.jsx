@@ -137,7 +137,7 @@ const Header = () => {
                           </Link>
                         ) : (
                           <>
-                            <a
+                            {/* <a
                               onClick={() => handleSubmenu(index)}
                               className={`flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 ${
                                 sticky ? "" : "dark:text-white"
@@ -173,7 +173,7 @@ const Header = () => {
                                   {submenuItem.title}
                                 </Link>
                               ))}
-                            </div>
+                            </div> */}
                           </>
                         )}
                       </li>
@@ -196,9 +196,7 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
-                <div>
-                  <ThemeToggler sticky={sticky} />
-                </div>
+                <div>{/* <ThemeToggler sticky={sticky} /> */}</div>
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ const menuData = [
   {
     id: 33,
     title: "Horizon",
-    path: "/blog",
+    path: "/horizon",
     newTab: false,
   },
   {
