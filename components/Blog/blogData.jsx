@@ -10,7 +10,7 @@ const blogData = [
       image: "/images/blog/author-01.png",
       designation: "Graphic Designer",
     },
-    tags: ["creative"],
+    tags: ["2022-23"],
     publishDate: "2025",
   },
   {
@@ -24,7 +24,7 @@ const blogData = [
       image: "/images/blog/author-02.png",
       designation: "Content Writer",
     },
-    tags: ["computer"],
+    tags: ["2021-22"],
     publishDate: "2025",
   },
   {
@@ -38,7 +38,7 @@ const blogData = [
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
-    tags: ["design"],
+    tags: ["2020-21"],
     publishDate: "2025",
   },
 ];
