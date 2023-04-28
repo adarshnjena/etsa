@@ -24,19 +24,24 @@ const Horizon = () => {
           <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 ">
             <div>
               <h1 class="text-4xl font-bold text-white sm:text-6xl lg:text-7xl">
-                Collaborate remotely, with
+                Expand your
                 <div class="relative inline-flex">
                   <span class="absolute inset-x-0 bottom-0 border-b-[30px] border-white"></span>
                   <h1 class="relative text-4xl font-bold text-primary sm:text-6xl lg:text-7xl">
-                    Postcrafts.
+                    Horizon.
                   </h1>
                 </div>
               </h1>
 
               <p class="mt-8 text-base text-body-color sm:text-xl">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat.
+                Horizon is the official/annual event under the umbrella of ETSA.
+                Every year various technical as well as non technical
+                competitions are organised for the students to put their skills
+                to test,display their mettle as well as get some recreation.
+                Some competitions previously held under Horizon are Talk the
+                talk in the non technical domain where student&apos;s showcased
+                their oratory skills and Avishkar in the technical domain where
+                students presented research papers on various topics.
               </p>
 
               <div className="flex flex-col gap-4 pt-10 xs:flex-row">
@@ -44,14 +49,14 @@ const Horizon = () => {
                   href="https://nextjstemplates.com/templates/startup"
                   className="glowBtn text-base font-semibold text-white"
                 >
-                  mneskfjsjbgf
+                  Register
                 </Link>
 
                 <Link
                   href="https://github.com/NextJSTemplates/startup-nextjs"
                   className="nonGlowBtn text-base font-semibold text-white"
                 >
-                  sgsrgdrgdsr
+                  Events
                 </Link>
               </div>
             </div>

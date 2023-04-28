@@ -36,11 +36,13 @@ export default function Timeline() {
                 <img src="images/hero/dummy.avif" alt="New York"></img>
               </div>
               <div class="details">
-                <h3>New York</h3>
+                <h3>Futsal </h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium dignissimos, minus aperiam adipisci
-                  exercitationem.
+                  Wanna show off your sporty side? We&apos;ve got you covered.
+                  Futsal is a mini-sized version of a thrilling soccer game with
+                  a smaller field but greater fun. Sure to attract sports
+                  enthusiasts, this is the latest addition to Horizon&apos;s
+                  platter of events.
                 </p>
               </div>
             </div>
@@ -53,11 +55,12 @@ export default function Timeline() {
                 <img src="images/hero/dummy.avif" alt="New York"></img>
               </div>
               <div class="details">
-                <h3>New York</h3>
+                <h3>Bot Mania</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Praesentium dignissimos, minus aperiam adipisci
-                  exercitationem.
+                  A unique obstacle race for the bots, this is the ultimate
+                  championship for the steadiest and sturdiest of robots. This
+                  challenging race trace is treacherous and will definitely keep
+                  you on the edge of your seat!
                 </p>
               </div>
             </div>

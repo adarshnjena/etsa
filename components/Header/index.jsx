@@ -196,9 +196,7 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
-                <div>
-                  <ThemeToggler sticky={sticky} />
-                </div>
+                <div>{/* <ThemeToggler sticky={sticky} /> */}</div>
               </div>
             </div>
           </div>
