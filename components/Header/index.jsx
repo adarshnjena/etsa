@@ -89,7 +89,7 @@ const Header = () => {
                 )}
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-end px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -137,7 +137,7 @@ const Header = () => {
                           </Link>
                         ) : (
                           <>
-                            {/* <a
+                            <a
                               onClick={() => handleSubmenu(index)}
                               className={`flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:opacity-70 ${
                                 sticky ? "" : "dark:text-white"
@@ -173,7 +173,7 @@ const Header = () => {
                                   {submenuItem.title}
                                 </Link>
                               ))}
-                            </div> */}
+                            </div>
                           </>
                         )}
                       </li>
@@ -181,7 +181,7 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+              {/* <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signin"
                   className={`hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 ${
@@ -196,8 +196,8 @@ const Header = () => {
                 >
                   Sign Up
                 </Link>
-                <div>{/* <ThemeToggler sticky={sticky} /> */}</div>
-              </div>
+                <div><ThemeToggler sticky={sticky} /></div>
+              </div> */}
             </div>
           </div>
         </div>

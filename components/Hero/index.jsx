@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[100px] pb-0 md:pt-[80px] md:pb-[80px] xl:pt-[150px] xl:pb-[80px] 2xl:pt-[150px] 2xl:pb-[80px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-col flex-nowrap md:flex-row xl:flex-row 2xl:flex-row ">
@@ -18,7 +18,8 @@ const Hero = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-12 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  ETSA 
+                  Engineering the Future with ETSA: Empowering Technical
+                  Innovators.
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   ETSA is the student body of Electronic and Telecommunication
