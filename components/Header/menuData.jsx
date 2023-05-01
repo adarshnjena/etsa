@@ -29,21 +29,9 @@ const menuData = [
     newTab: false,
     submenu: [
       {
-        id: 41,
-        title: "2018-2019",
-        path: "/",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "2019-2020",
-        path: "/",
-        newTab: false,
-      },
-      {
         id: 43,
-        title: "2020-2021",
-        path: "/",
+        title: "2022-2023",
+        path: "/activities/2k23",
         newTab: false,
       },
     ],

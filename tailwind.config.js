@@ -1,6 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+/**
+ * @type {import('tailwindcss').Config}
+ * @type {import('@types/tailwindcss/tailwind-config').TailwindConfig}
+ */
 module.exports = {
   content: [
+    "./node_modules/flowbite-react/**/*.js",
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
@@ -54,9 +58,9 @@ module.exports = {
         sticky: "inset 0 -1px 0 0 rgba(0, 0, 0, 0.1)",
       },
       fontFamily: {
-        'mokoto' : ['mokoto']
-      }
+        mokoto: ["mokoto"],
+      },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };

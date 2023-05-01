@@ -54,7 +54,7 @@ const Header = () => {
                     alt="logo"
                     width={140}
                     height={30}
-                    className="m-0 w-[8vh] p-0 dark:hidden sm:w-[10vh]"
+                    className="m-0 w-[6vh] p-0 dark:hidden sm:w-[10vh]"
                   />
                   <p className="place-self-center pl-5 font-mokoto text-3xl font-bold dark:hidden">
                     ETSA
@@ -67,7 +67,7 @@ const Header = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="m-0 hidden w-[8vh] p-0 dark:block sm:w-[10vh]"
+                      className="m-0 hidden w-[6vh] p-0 dark:block sm:w-[10vh]"
                     />
                     <p className="hidden place-self-center pl-5 font-mokoto text-3xl font-bold text-black dark:block">
                       ETSA
@@ -80,7 +80,7 @@ const Header = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="m-0 hidden w-[8vh] p-0 dark:block sm:w-[10vh]"
+                      className="m-0 hidden w-[6vh] p-0 dark:block sm:w-[10vh]"
                     />
                     <p className="hidden place-self-center pl-5 font-mokoto text-3xl font-bold dark:block">
                       ETSA
@@ -156,7 +156,7 @@ const Header = () => {
                             <div
                               className={`submenu relative top-full left-0 rounded-md bg-white transition-[top] duration-300 group-hover:opacity-100 ${
                                 sticky ? "dark:bg-white" : "dark:bg-dark"
-                              } lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
+                              } lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:invisible lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >

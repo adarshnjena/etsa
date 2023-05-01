@@ -8,7 +8,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[100px] pb-0 md:pt-[80px] md:pb-[80px] xl:pt-[150px] xl:pb-[80px] 2xl:pt-[150px] 2xl:pb-[80px]"
+        className="relative z-10 overflow-hidden pt-[100px] pb-0 md:pt-[80px] md:pb-[80px] xl:pt-[100px] xl:pb-[80px] 2xl:pt-[23vh] 2xl:pb-[80px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-col flex-nowrap md:flex-row xl:flex-row 2xl:flex-row ">
