@@ -190,12 +190,12 @@
   color: #ffffff;
   font-weight: 600;
   font-size: 18px;
-  margin: 10px 0 15px 0;
+  margin: 5px 0 5px 0;
 }
 .details > p {
   color: #a0a0a0;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 26px;
   font-weight: 400;
 }
 
@@ -261,8 +261,8 @@
   .section-timeline,
   .section3-timeline,
   .section4-timeline {
-    padding: 0 10px;
-    padding-left: 20px;
+    padding: 0 5px;
+    padding-left: 15px;
     transform: translateX(100%);
     text-align: left;
     width: 80vw;
@@ -275,12 +275,19 @@
     width: 100%;
   }
 
+  .container-img img {
+    height: 20vh;
+    width: 100%;
+  }
+
   .content-timeline h3 {
     font-size: 18px;
+    margin: 0;
   }
 
   .content-timeline p {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 23px;
   }
 
   .horizontalLine,

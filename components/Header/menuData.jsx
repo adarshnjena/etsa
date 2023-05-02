@@ -36,11 +36,11 @@ const menuData = [
       },
     ],
   },
-  {
-    id: 5,
-    title: "Committee",
-    path: "/",
-    newTab: false,
-  },
+  // {
+  //   id: 5,
+  //   title: "Committee",
+  //   path: "/",
+  //   newTab: false,
+  // },
 ];
 export default menuData;

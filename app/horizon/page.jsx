@@ -2,13 +2,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import Link from "next/link";
-import SingleBlog from "@/components/Blog/SingleBlog";
-import blogData from "@/components/Blog/blogData";
 import Timeline from "@/components/Timeline";
-import { Text, Spacer } from "@nextui-org/react";
 import Brands from "@/components/Brands";
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import FaqSec from "@/components/Contact/Faq";
 import Gallery from "@/components/gallery";
 import Contact from "@/components/Contact";
@@ -18,7 +13,7 @@ const Horizon = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[150px] 2xl:pb-[200px]"
+        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[25vh] 2xl:pt-[20vh] 2xl:pb-[200px]"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 ">
@@ -627,7 +622,7 @@ const Horizon = () => {
           </svg>
         </div>
       </section> */}
-      <section className=" pb-[120px]">
+      {/* <section className=" pb-[120px]">
         <div className="top-section-timeline">
           <Text
             h1
@@ -663,7 +658,7 @@ const Horizon = () => {
             data-wow-delay=".15s"
           ></div>
         </div>
-      </section>
+      </section> */}
       <Timeline />
       <Brands />
       <FaqSec />

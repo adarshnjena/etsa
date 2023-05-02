@@ -39,8 +39,10 @@ const Footer = () => {
                   </div>
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  The Electronics and Telecommunications Student Association
+                  promotes academic excellence through engaging activities that
+                  foster professional development and networking
+                  opportunities among students
                 </p>
                 <div className="flex items-center">
                   <a

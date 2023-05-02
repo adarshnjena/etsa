@@ -6,8 +6,8 @@ export default function Faq() {
 
   return (
     <>
-      <section class="bg-gray-50 py-10 sm:py-16 lg:py-24">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section class="relative z-10 bg-body-color-dark py-10 sm:py-16 lg:py-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6  lg:px-8">
           <div class="mx-auto max-w-2xl text-center">
             <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
               Frequently Asked Questions
@@ -21,7 +21,7 @@ export default function Faq() {
             {faqData.map((data) => (
               <div
                 key={data.index}
-                class="border-purple-200 hover:bg-gray-50 cursor-pointer border bg-white shadow-lg transition-all duration-200"
+                class="cursor-pointer rounded-xl border border-purple-200 bg-white text-black shadow-lg transition-all duration-200  hover:bg-secondary hover:text-white"
                 onClick={() => {
                   setOpenIndex(data.index);
                 }}
@@ -31,12 +31,10 @@ export default function Faq() {
                     type="button"
                     class="flex w-full items-center justify-between px-4 py-5 transition-all duration-200 sm:p-6"
                   >
-                    <span class="flex text-lg font-semibold text-black">
-                      {data.que}
-                    </span>
+                    <span class="flex text-lg font-semibold ">{data.que}</span>
 
                     <svg
-                      class="h-6 w-6 rotate-180 text-black"
+                      class="h-6 w-6 rotate-180 "
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -53,15 +51,12 @@ export default function Faq() {
                 ) : (
                   <button
                     type="button"
-                    class="flex w-full items-center justify-between px-4 py-5 transition-all duration-200 sm:p-6"
+                    class="flex w-full items-center justify-between px-4 py-5 text-black transition-all duration-200  hover:text-white sm:p-6"
                   >
-                    <span class="flex text-lg font-semibold text-black">
-                      {" "}
-                      How can I reach to support?{" "}
-                    </span>
+                    <span class="flex text-lg font-semibold"> {data.que} </span>
 
                     <svg
-                      class="h-6 w-6 text-black"
+                      class="h-6 w-6 "
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -78,7 +73,7 @@ export default function Faq() {
                 )}
 
                 {openIndex === data.index ? (
-                  <div class="px-4 pb-5 text-black transition-all duration-200 sm:px-6 sm:pb-6">
+                  <div class="px-4 pb-5  transition-all duration-200 sm:px-6 sm:pb-6">
                     <p>{data.ans}</p>
                   </div>
                 ) : (
@@ -88,16 +83,20 @@ export default function Faq() {
             ))}
           </div>
 
-          <p class="text-gray-600 textbase mt-9 text-center">
+          <p class="textbase mt-9 text-center text-gray-600">
             Didn’t find the answer you are looking for?{" "}
             <a
               href="#"
               title=""
-              class="text-blue-600 hover:text-blue-700 focus:text-blue-700 font-medium transition-all duration-200 hover:underline"
+              class="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 hover:underline focus:text-blue-700"
             >
               Contact our support
             </a>
           </p>
+        </div>
+
+        <div className="absolute bottom-0 left-0 right-0 z-[-1]">
+          <img src="/images/video/shape.svg" alt="shape" className="w-full" />
         </div>
       </section>
     </>
