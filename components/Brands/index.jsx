@@ -4,20 +4,20 @@ const brandsData = [
   {
     id: 1,
     name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    href: "/",
+    image: "/images/brands/ElectroHouse.png",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    name: "unique-logo",
+    href: "/",
+    image: "/images/brands/unique-logo.png",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    name: "Robo Studio",
+    href: "",
+    image: "/images/brands/third.jpg",
   },
   {
     id: 4,
