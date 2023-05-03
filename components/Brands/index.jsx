@@ -21,14 +21,14 @@ const brandsData = [
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    name: "emertxe",
+    href: "",
+    image: "/images/brands/forth.png",
   },
   {
     id: 5,
     name: "TailAdmin",
-    href: "https://tailadmin.com",
+    href: "",
     image: "/images/brands/tailadmin.svg",
   },
 ];

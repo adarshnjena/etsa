@@ -11,23 +11,29 @@ const AboutSectionTwo = () => {
               className="wow fadeInUp relative mx-auto mb-12 aspect-[25/24] max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image src="/images/hero/dummy.avif" alt="about image" fill />
+              <Image src="/images/entc.jpg" alt="about image" fill />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
-            <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
+            <div className="wow fadeInUp max-w-[570px]" data-wow-delay=".2s">
               <SectionTitle
-                title="Faculty Coordinators of ETSA"
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
-                mb="44px"
+                title="The Department of Electronics and Telecommunications"
+                paragraph=""
+                mb="10px"
               />
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
-                </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  The E&TC department at Government College of Engineering,
+                  Nagpur is known for providing quality education to its
+                  students. The undergraduate program offered by the department
+                  covers various areas of electronics and telecommunications
+                  engineering such as signal processing, communication systems,
+                  microprocessors, and microcontrollers, among others. The
+                  faculty members are highly qualified and experienced, with
+                  expertise in different areas of electronics and
+                  telecommunications engineering. They provide individual
+                  attention to the students and guide them in their academic and
+                  research pursuits.
                 </p>
               </div>
             </div>
