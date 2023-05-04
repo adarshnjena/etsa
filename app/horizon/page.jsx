@@ -41,14 +41,14 @@ const Horizon = () => {
 
               <div className="flex flex-col gap-4 pt-10 xs:flex-row">
                 <Link
-                  href="https://nextjstemplates.com/templates/startup"
+                  href=""
                   className="glowBtn text-base font-semibold text-white"
                 >
                   Register
                 </Link>
 
                 <Link
-                  href="https://github.com/NextJSTemplates/startup-nextjs"
+                  href=""
                   className="nonGlowBtn text-base font-semibold text-white"
                 >
                   Events
