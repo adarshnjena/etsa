@@ -11,7 +11,7 @@ const brandsData = [
     id: 2,
     name: "unique-logo",
     href: "/",
-    image: "/images/brands/unique-logo.png",
+    image: "/images/brands/unique-logo.jpg",
   },
   {
     id: 3,
