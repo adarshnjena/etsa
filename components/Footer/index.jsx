@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 
@@ -221,14 +222,26 @@ const Footer = () => {
         </div>
         <div className="bg-primary/10 py-8">
           <div className="container">
-            <p className="text-center text-base text-body-color dark:text-white">
+            <p className="flex flex-wrap items-center justify-center text-center text-base text-body-color dark:text-white">
               Designed and Developed By{" "}
               <a
                 href="https://adarshjena.in"
                 rel="nofollow noopener"
-                className="decoration-sky-500 text-primary underline"
+                className=" text-primary"
               >
-                Adarsh Jena 💜
+                <div class="flex items-center space-x-4">
+                  <img
+                    class="h-10 w-10 rounded-full sm:ml-6"
+                    src="/images/footer/profile.jpg"
+                    alt=""
+                  ></img>
+                  <div class="text-left font-medium dark:text-white ">
+                    <div>Adarsh Jena 💜</div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">
+                      GDSC Lead&apos;23
+                    </div>
+                  </div>
+                </div>
               </a>
             </p>
           </div>

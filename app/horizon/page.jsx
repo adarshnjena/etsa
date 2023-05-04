@@ -7,13 +7,20 @@ import Brands from "@/components/Brands";
 import FaqSec from "@/components/Contact/Faq";
 import Gallery from "@/components/gallery";
 import Contact from "@/components/Contact";
+import { useRef } from "react";
 
 const Horizon = () => {
+  const scrollRef = useRef();
+
+  function handleClick() {
+    scrollRef.current.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[25vh] 2xl:pt-[20vh] 2xl:pb-[200px]"
+        className="md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[25vh] 2xl:pt-[20vh] 2xl:pb-[200px] relative z-10 overflow-hidden pb-16 pt-[120px]"
       >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 items-center gap-12 lg:grid-cols-2 ">
@@ -40,18 +47,18 @@ const Horizon = () => {
               </p>
 
               <div className="flex flex-col gap-4 pt-10 xs:flex-row">
-                <Link
-                  href=""
+                <button
+                  onClick={handleClick}
                   className="glowBtn text-base font-semibold text-white"
                 >
                   Register
-                </Link>
+                </button>
 
                 <Link
-                  href=""
+                  href="/"
                   className="nonGlowBtn text-base font-semibold text-white"
                 >
-                  Events
+                  ETSA
                 </Link>
               </div>
             </div>
@@ -64,7 +71,7 @@ const Horizon = () => {
               />
             </div>
 
-            <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
+            <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
               <svg
                 width="450"
                 height="556"
@@ -659,7 +666,9 @@ const Horizon = () => {
           ></div>
         </div>
       </section> */}
-      <Timeline />
+      <div id="events" ref={scrollRef}>
+        <Timeline />
+      </div>
       <Brands />
       <FaqSec />
       <Gallery />
