@@ -8,13 +8,13 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden pt-[100px] pb-0 md:pt-[80px] md:pb-[80px] xl:pt-[100px] xl:pb-[80px] 2xl:pt-[23vh] 2xl:pb-[80px]"
+        className="md:pt-[80px] md:pb-[80px] xl:pt-[100px] xl:pb-[80px] 2xl:pt-[23vh] 2xl:pb-[80px] relative z-10 overflow-hidden pb-0 pt-[100px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-col flex-nowrap md:flex-row xl:flex-row 2xl:flex-row ">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px]"
+                className="wow fadeInUp mx-auto min-w-[50vw] max-w-[800px]"
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-12 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
@@ -37,35 +37,22 @@ const Hero = () => {
                     Horizon
                   </Link>
                   <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
+                    href="/activities/2k23"
                     className="nonGlowBtn text-base font-semibold text-white"
                   >
-                    sgsrgdrgdsr
+                    Activities
                   </Link>
                 </div>
               </div>
             </div>
             <div>
-              <div className="w-full px-4 py-14 sm:py-[10%] md:py-[30%] lg:py-[10%] xl:py-0 2xl:py-0">
-                <div className="columns-2 gap-3">
-                  <img
-                    className=" aspect-video w-full object-none duration-100 hover:opacity-90"
-                    src="/images/hero/dummy.avif"
-                  />
-                  <img
-                    className="aspect-square w-full object-none pt-3 duration-100 hover:opacity-90"
-                    src="/images/hero/dummy.avif"
-                  />
-                  <img
-                    className=" h-full w-full object-none duration-100 hover:opacity-90"
-                    src="/images/hero/dummy.avif"
-                  />
-                </div>
+              <div className="sm:py-[10%] md:py-[30%] lg:py-[10%] w-full px-4 py-14 xl:py-0 2xl:py-0">
+                <img src="/images/hero/hero.png" />
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"

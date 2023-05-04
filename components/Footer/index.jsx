@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="md:w-1/2 lg:w-4/12 xl:w-5/12 w-full px-4">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <div className="flex">
@@ -19,7 +19,7 @@ const Footer = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="m-0 w-[8vh] p-0 dark:hidden sm:w-[10vh]"
+                      className="sm:w-[10vh] m-0 w-[8vh] p-0 dark:hidden"
                     />
                     <p className="place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-black dark:hidden">
                       ETSA
@@ -31,7 +31,7 @@ const Footer = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="m-0 hidden w-[8vh] p-0 dark:block sm:w-[10vh]"
+                      className="sm:w-[10vh] m-0 hidden w-[8vh] p-0 dark:block"
                     />
                     <p className="hidden place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-white dark:block">
                       ETSA
@@ -107,7 +107,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 w-full px-4">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
@@ -144,7 +144,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 w-full px-4">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -181,7 +181,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="md:w-1/2 lg:w-4/12 xl:w-3/12 w-full px-4">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -226,7 +226,7 @@ const Footer = () => {
               <a
                 href="https://adarshjena.in"
                 rel="nofollow noopener"
-                className="text-primary"
+                className="decoration-sky-500 text-primary underline"
               >
                 Adarsh Jena 💜
               </a>
@@ -307,7 +307,7 @@ const Footer = () => {
             </defs>
           </svg>
         </div>
-        <div className="absolute left-0 bottom-24 z-[-1]">
+        <div className="absolute bottom-24 left-0 z-[-1]">
           <svg
             width="79"
             height="94"

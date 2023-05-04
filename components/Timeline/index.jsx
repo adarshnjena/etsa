@@ -35,7 +35,7 @@ export default function Timeline() {
             <div className="bead bead3"></div>
             <div className="content-timeline card3">
               <div class="container-img">
-                <img src="images/events/IDEATHON.png" alt="New York"></img>
+                <img src="images/events/ideathon.webp" alt="New York"></img>
               </div>
               <div class="details">
                 <h3>Ideathon</h3>
@@ -52,7 +52,7 @@ export default function Timeline() {
                     href={"https://bit.ly/41BVKKL"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
+                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
                       Register Now
                     </span>
                   </Link>
@@ -65,7 +65,7 @@ export default function Timeline() {
             <div className="bead bead1"></div>
             <div className="content-timeline card1">
               <div class="container-img">
-                <img src="images/hero/dummy.avif" alt="New York"></img>
+                <img src="images/events/futsal.webp" alt="New York"></img>
               </div>
               <div class="details">
                 <h3>Futsal </h3>
@@ -81,7 +81,7 @@ export default function Timeline() {
                     href={"https://bit.ly/3Ls2DIO"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
+                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
                       Register Now
                     </span>
                   </Link>
@@ -94,7 +94,7 @@ export default function Timeline() {
             <div className="bead bead2"></div>
             <div className="content-timeline card2">
               <div class="container-img">
-                <img src="images/events/IDEATHON.png" alt="New York"></img>
+                <img src="images/events/botmania.webp" alt="New York"></img>
               </div>
               <div class="details">
                 <h3>Bot Mania</h3>
@@ -109,7 +109,7 @@ export default function Timeline() {
                     href={"https://bit.ly/BOTMANIA"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
+                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
                       Register Now
                     </span>
                   </Link>
@@ -122,7 +122,7 @@ export default function Timeline() {
             <div className="bead bead3"></div>
             <div className="content-timeline card3">
               <div class="container-img">
-                <img src="images/hero/dummy.avif" alt="New York"></img>
+                <img src="images/events/taskmaker.webp" alt="New York"></img>
               </div>
               <div class="details">
                 <h3>Taskmaster</h3>
@@ -138,7 +138,7 @@ export default function Timeline() {
                     href={"https://bit.ly/3V8VKzC"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
+                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
                       Register Now
                     </span>
                   </Link>

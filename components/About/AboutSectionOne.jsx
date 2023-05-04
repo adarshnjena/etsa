@@ -20,12 +20,12 @@ const AboutSectionOne = () => {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
-        <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
+        <div className="dark:border-white/[.15] border-b border-body-color/[.15] pb-16 md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="lg:w-1/2 w-full px-4">
               <SectionTitle
-                title="Faculty Coordinators of ETSA"
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Feelings from the Head of the Department"
+                paragraph="Feel extremely happy and delighted to lead and guide the organization of an event that I had given a name."
                 mb="44px"
               />
 
@@ -33,29 +33,36 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                <div className="flex flex-wrap text-justify">
+                  Giving a name “HORIZON”, to The Installation Ceremony of ETSA
+                  had an intense intention, I wanted my children (students) to
+                  perceive a world beyond the physical vision; March ahead after
+                  every destination; in the pursuit of real happiness for self,
+                  family, friends, society and the whole nation. Here we
+                  envision building human relations, by working as a team,
+                  bringing out all that is good in the other, standing hand in
+                  hand to meet challenges, and assuring a successful
+                  organization. We believe success is the one where who is at
+                  the top of the ladder is not important, much more important is
+                  how many are holding the success ladder. Feel extremely happy
+                  and proud about the pre-installation ventures of Team ETSA
+                  22-23 and expect the same in the future. Wishing for a
+                  cherishing experience.
+                  <div className=" justify-endtext-base mt-5 flex w-screen flex-col items-end !leading-relaxed text-body-color md:text-lg">
+                    <div>Yours truly</div>
+                    <div>-Rajeshree</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2">
+            <div className="lg:w-1/2 w-full px-4">
               <div
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/hero/dummy.avif"
+                  src="/images/about/hodMaam.jpg"
                   alt="about-image"
                   fill
                   className="mx-auto max-w-full lg:mr-0"
