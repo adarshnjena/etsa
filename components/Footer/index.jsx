@@ -11,7 +11,7 @@ const Footer = () => {
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="md:w-1/2 lg:w-4/12 xl:w-5/12 w-full px-4">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <div className="flex">
@@ -20,7 +20,7 @@ const Footer = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="sm:w-[10vh] m-0 w-[8vh] p-0 dark:hidden"
+                      className="m-0 w-[8vh] p-0 dark:hidden sm:w-[10vh]"
                     />
                     <p className="place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-black dark:hidden">
                       ETSA
@@ -32,7 +32,7 @@ const Footer = () => {
                       alt="logo"
                       width={140}
                       height={30}
-                      className="sm:w-[10vh] m-0 hidden w-[8vh] p-0 dark:block"
+                      className="m-0 hidden w-[8vh] p-0 dark:block sm:w-[10vh]"
                     />
                     <p className="hidden place-self-center pl-5 font-['mokoto'] text-3xl font-bold text-white dark:block">
                       ETSA
@@ -108,7 +108,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 w-full px-4">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
@@ -145,7 +145,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12 w-full px-4">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -183,7 +183,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="md:w-1/2 lg:w-4/12 xl:w-3/12 w-full px-4">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Support & Help
@@ -239,7 +239,7 @@ const Footer = () => {
                   <div class="text-left font-medium dark:text-white ">
                     <div>Adarsh Jena 💜</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400">
-                      GDSC Lead&apos;23
+                      Web Developer
                     </div>
                   </div>
                 </div>
