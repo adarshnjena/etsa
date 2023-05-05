@@ -72,7 +72,7 @@ export default function Timeline() {
                     href={"https://bit.ly/41BVKKL"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
                       Register Now
                     </span>
                   </Link>
@@ -121,7 +121,7 @@ export default function Timeline() {
                     href={"https://bit.ly/3Ls2DIO"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
                       Register Now
                     </span>
                   </Link>
@@ -169,7 +169,7 @@ export default function Timeline() {
                     href={"https://bit.ly/BOTMANIA"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
                       Register Now
                     </span>
                   </Link>
@@ -218,7 +218,7 @@ export default function Timeline() {
                     href={"https://bit.ly/3V8VKzC"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
                       Register Now
                     </span>
                   </Link>
@@ -239,11 +239,11 @@ export default function Timeline() {
               <div class="details">
                 <h3>Talk-the-Talk</h3>
                 <p>
-                  Wanna show off your sporty side? We&apos;ve got you covered.
-                  Futsal is a mini-sized version of a thrilling soccer game with
-                  a smaller field but greater fun. Sure to attract sports
-                  enthusiasts, this is the latest addition to Horizon&apos;s
-                  platter of events.
+                  Taskmaster is a game where the participants will face a series
+                  of tasks that will require them to think critically, solve
+                  problems, and work collaboratively. The challenges will range
+                  from physical challenges to mental puzzles and will keep the
+                  participants on their toes throughout the event.
                   <a
                     href="images/events/Talk-the-talk.webp"
                     target="blank"
@@ -270,7 +270,7 @@ export default function Timeline() {
                     href={"https://bit.ly/3Ls2DIO"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
-                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                    <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
                       Register Now
                     </span>
                   </Link>
