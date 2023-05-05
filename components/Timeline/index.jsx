@@ -146,6 +146,38 @@ export default function Timeline() {
               </div>
             </div>
           </div>
+
+          <div className="section-timeline">
+            <div className="bead bead4"></div>
+            <div className="content-timeline card4">
+              <div class="container-img">
+                <img
+                  src="images/events/Talk-the-talk.webp"
+                  alt="New York"
+                ></img>
+              </div>
+              <div class="details">
+                <h3>Talk-the-Talk</h3>
+                <p>
+                  Wanna show off your sporty side? We&apos;ve got you covered.
+                  Futsal is a mini-sized version of a thrilling soccer game with
+                  a smaller field but greater fun. Sure to attract sports
+                  enthusiasts, this is the latest addition to Horizon&apos;s
+                  platter of events.
+                </p>
+                <div className="mt-4 flex">
+                  <Link
+                    href={"https://bit.ly/3Ls2DIO"}
+                    class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
+                  >
+                    <span class="md:py-2.5 relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900">
+                      Register Now
+                    </span>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
