@@ -239,11 +239,9 @@ export default function Timeline() {
               <div class="details">
                 <h3>Talk-the-Talk</h3>
                 <p>
-                  Taskmaster is a game where the participants will face a series
-                  of tasks that will require them to think critically, solve
-                  problems, and work collaboratively. The challenges will range
-                  from physical challenges to mental puzzles and will keep the
-                  participants on their toes throughout the event.
+                  A competitive debate competition where participants engage in
+                  spirited discourse, showcasing their eloquence, reasoning, and
+                  persuasion skills.
                   <a
                     href="images/events/Talk-the-talk.webp"
                     target="blank"
