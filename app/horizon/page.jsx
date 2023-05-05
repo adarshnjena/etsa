@@ -64,11 +64,7 @@ const Horizon = () => {
             </div>
 
             <div>
-              <img
-                class="w-full"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/2/hero-img.png"
-                alt=""
-              />
+              <img class="w-full" src="/images/hero/horizonHero.svg" alt="" />
             </div>
 
             <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
