@@ -45,7 +45,27 @@ export default function Timeline() {
                   platform where they can put their projects through
                   professional scrutiny and get constructive feedback. It
                   inculcates an innovative zeal among participants bringing out
-                  the best of technical talents to the fore.
+                  the best of technical talents to the fore.{" "}
+                  <a
+                    href="images/events/ideathon.webp"
+                    target="blank"
+                    class="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    Download Poster
+                    <svg
+                      aria-hidden="true"
+                      class="ml-1 h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
                 </p>
                 <div className="mt-4 flex">
                   <Link
@@ -74,7 +94,27 @@ export default function Timeline() {
                   Futsal is a mini-sized version of a thrilling soccer game with
                   a smaller field but greater fun. Sure to attract sports
                   enthusiasts, this is the latest addition to Horizon&apos;s
-                  platter of events.
+                  platter of events.{" "}
+                  <a
+                    href="images/events/futsal.webp"
+                    target="blank"
+                    class="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    Download Poster
+                    <svg
+                      aria-hidden="true"
+                      class="ml-1 h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
                 </p>
                 <div className="mt-4 flex">
                   <Link
@@ -103,6 +143,26 @@ export default function Timeline() {
                   championship for the steadiest and sturdiest of robots. This
                   challenging race trace is treacherous and will definitely keep
                   you on the edge of your seat!
+                  <a
+                    href="images/events/botmania.webp"
+                    target="blank"
+                    class="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    Download Poster
+                    <svg
+                      aria-hidden="true"
+                      class="ml-1 h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
                 </p>
                 <div className="mt-4 flex">
                   <Link
@@ -131,7 +191,27 @@ export default function Timeline() {
                   of tasks that will require them to think critically, solve
                   problems, and work collaboratively. The challenges will range
                   from physical challenges to mental puzzles and will keep the
-                  participants on their toes throughout the event
+                  participants on their toes throughout the event.
+                  <a
+                    href="images/events/taskmaker.webp"
+                    target="blank"
+                    class="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    Download Poster
+                    <svg
+                      aria-hidden="true"
+                      class="ml-1 h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
                 </p>
                 <div className="mt-4 flex">
                   <Link
@@ -164,6 +244,26 @@ export default function Timeline() {
                   a smaller field but greater fun. Sure to attract sports
                   enthusiasts, this is the latest addition to Horizon&apos;s
                   platter of events.
+                  <a
+                    href="images/events/Talk-the-talk.webp"
+                    target="blank"
+                    class="inline-flex items-center font-medium text-blue-600 hover:underline dark:text-blue-500"
+                  >
+                    Download Poster
+                    <svg
+                      aria-hidden="true"
+                      class="ml-1 h-5 w-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </a>
                 </p>
                 <div className="mt-4 flex">
                   <Link
