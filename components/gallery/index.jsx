@@ -157,77 +157,19 @@ export default function Gallery() {
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
+            <img class="bg-gray-300" src="/images/gallery/19.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
+            <img class="bg-gray-200" src="/images/gallery/20.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1 bg-green-400">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
-              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Ceremonies
-              </p>
-              <p class="mt-2 truncate text-sm text-white">Horizon</p>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/19.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/20.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/21.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div>
-          <div class="aspect-w-1 aspect-h-1 bg-red-500">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
-              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Meetings
-              </p>
-              <p class="mt-2 truncate text-sm text-white">Horizon</p>
-            </div>
+            <img class="bg-gray-300" src="/images/gallery/21.jpeg" alt="" />
           </div>
         </div>
 
@@ -244,19 +186,19 @@ export default function Gallery() {
         </div>
 
         <div>
-          <div class="aspect-w-1 aspect-h-1 bg-gray-800">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
-              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Festivals
-              </p>
-              <p class="mt-2 truncate text-sm text-white">Horizon</p>
-            </div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-200" src="/images/gallery/24.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/24.jpeg" alt="" />
+          <div class="aspect-w-1 aspect-h-1 bg-green-400">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
+              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
+                Ceremonies
+              </p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
+            </div>
           </div>
         </div>
 
@@ -279,8 +221,66 @@ export default function Gallery() {
         </div>
 
         <div>
+          <div class="aspect-w-1 aspect-h-1 bg-red-500">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
+              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
+                Meetings
+              </p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/28.jpeg" alt="" />
+            <img class="bg-gray-200" src="/images/gallery/28.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-300" src="/images/gallery/29.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1 bg-gray-800">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
+              <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
+                Festivals
+              </p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-300" src="/images/gallery/30.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-200" src="/images/gallery/31.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-300" src="/images/gallery/32.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-200" src="/images/gallery/39.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div>
+          <div class="aspect-w-1 aspect-h-1">
+            <img class="bg-gray-300" src="/images/gallery/34.jpeg" alt="" />
           </div>
         </div>
 
@@ -297,19 +297,19 @@ export default function Gallery() {
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/29.jpeg" alt="" />
+            <img class="bg-gray-300" src="/images/gallery/35.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-200" src="/images/gallery/30.jpeg" alt="" />
+            <img class="bg-gray-200" src="/images/gallery/36.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img class="bg-gray-300" src="/images/gallery/31.jpeg" alt="" />
+            <img class="bg-gray-300" src="/images/gallery/37.jpeg" alt="" />
           </div>
         </div>
       </div>
