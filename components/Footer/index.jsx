@@ -195,7 +195,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Open Support Ticket{" "}
+                      7774973903 - Bhavesh Rahate
                     </Link>
                   </li>
                   <li>
@@ -204,7 +204,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      9921707207 - Vedant Gotmare
                     </Link>
                   </li>
                   <li>
@@ -213,7 +213,7 @@ const Footer = () => {
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      etsa.gcoen@gmail.com
                     </Link>
                   </li>
                 </ul>
