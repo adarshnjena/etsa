@@ -5,7 +5,7 @@ import React from "react";
 export default function Gallery() {
   return (
     <section>
-      <div class="from-fuchsia-600 to-blue-600 bg-gradient-to-r py-10">
+      <div class="from-fuchsia-600 bg-gradient-to-r to-blue-600 py-10">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 class="text-center text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">
             You’ll be in great company
@@ -16,448 +16,300 @@ export default function Gallery() {
       <div class="grid grid-cols-4 md:grid-cols-6 xl:grid-cols-11">
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-1.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/1.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-2.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/2.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-3.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/3.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-4.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/4.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-orange-500 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-orange-500">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Floyd Miles
+                Occurrences
               </p>
-              <p class="mt-2 truncate text-sm text-white">Designer</p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-5.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/5.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-6.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/6.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-7.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/7.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-8.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/8.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-9.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/9.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-10.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/10.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-11.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/11.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-12.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/12.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-blue-500 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-blue-500">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Bessie Cooper
+                Happenings{" "}
               </p>
-              <p class="mt-2 truncate text-sm text-white">Marketer</p>
+              <p class="mt-2 truncate text-sm text-white">Activities</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-13.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/13.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-14.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/14.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-15.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/15.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-16.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/16.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-gray-700 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-gray-700">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Annette Black
+                Gatherings
               </p>
-              <p class="mt-2 truncate text-sm text-white">Photographer</p>
+              <p class="mt-2 truncate text-sm text-white">ETSA</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-17.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/17.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-18.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-19.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-20.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-21.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-22.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-23.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-24.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/18.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-green-400 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-green-400">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Leslie Alexander
+                Ceremonies
               </p>
-              <p class="mt-2 truncate text-sm text-white">Developer</p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-25.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/19.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-26.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/20.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-27.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/21.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-red-500 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-red-500">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Wade Warren
+                Meetings
               </p>
-              <p class="mt-2 truncate text-sm text-white">Founder</p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-28.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/22.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-29.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/23.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-gray-800 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-gray-800">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Guy Hawkins
+                Festivals
               </p>
-              <p class="mt-2 truncate text-sm text-white">SaaS Founder</p>
+              <p class="mt-2 truncate text-sm text-white">Horizon</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-30.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/24.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-31.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/25.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-32.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/26.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-33.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/27.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-34.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/28.jpeg" alt="" />
           </div>
         </div>
 
         <div>
-          <div class="bg-indigo-500 aspect-w-1 aspect-h-1">
-            <div class="p-3 sm:p-5 xl:py-6 2xl:py-8 2xl:px-5">
+          <div class="aspect-w-1 aspect-h-1 bg-indigo-500">
+            <div class="p-3 sm:p-5 xl:py-6 2xl:px-5 2xl:py-8">
               <p class="text-sm font-semibold leading-tight text-white sm:text-lg sm:leading-tight">
-                Ralph Edwards
+                Ceremonies
               </p>
-              <p class="mt-2 truncate text-sm text-white">Freelancer</p>
+              <p class="mt-2 truncate text-sm text-white">ETSA</p>
             </div>
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-35.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/29.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-200"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-4.jpg"
-              alt=""
-            />
+            <img class="bg-gray-200" src="/images/gallery/30.jpeg" alt="" />
           </div>
         </div>
 
         <div>
           <div class="aspect-w-1 aspect-h-1">
-            <img
-              class="bg-gray-300"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/3/avatar-3.jpg"
-              alt=""
-            />
+            <img class="bg-gray-300" src="/images/gallery/31.jpeg" alt="" />
           </div>
         </div>
       </div>
