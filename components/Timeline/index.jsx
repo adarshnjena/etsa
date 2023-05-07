@@ -265,7 +265,7 @@ export default function Timeline() {
                 </p>
                 <div className="mt-4 flex">
                   <Link
-                    href={"https://bit.ly/3Ls2DIO"}
+                    href={"https://bit.ly/40LNaYM"}
                     class="w-100% group relative m-auto flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-green-400 to-blue-600 p-0.5 text-sm font-medium text-gray-900 hover:text-white focus:outline-none focus:ring-4 focus:ring-green-200 group-hover:from-green-400 group-hover:to-blue-600 dark:text-white dark:focus:ring-green-800"
                   >
                     <span class="relative w-screen rounded-md bg-white px-5 py-1.5 text-center transition-all duration-75 ease-in group-hover:bg-opacity-0 dark:bg-gray-900 md:py-2.5">
